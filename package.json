@@ -1,0 +1,27 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./public/index.html --open --no-cache",
+    "build": "parcel build ./public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dima010681/practical-work-No.-8.git"
+  },
+  "author": "Dmitrii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dima010681/practical-work-No.-8/issues"
+  },
+  "homepage": "https://github.com/Dima010681/practical-work-No.-8#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.13.0"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
+}
